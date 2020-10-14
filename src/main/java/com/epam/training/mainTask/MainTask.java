@@ -1,6 +1,5 @@
 package com.epam.training.mainTask;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**

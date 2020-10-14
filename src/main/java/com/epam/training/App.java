@@ -1,13 +1,7 @@
 package com.epam.training;
 
 import com.epam.training.mainTask.MainTask;
-import com.epam.training.mainTask.MainTask2;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Random;
-import java.util.Scanner;
 
 /**
  * Hello world!

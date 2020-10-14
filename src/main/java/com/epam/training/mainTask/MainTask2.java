@@ -1,8 +1,5 @@
 package com.epam.training.mainTask;
 
-import com.epam.training.App;
-
-import java.io.IOException;
 import java.util.Scanner;
 
 public class MainTask2 {
