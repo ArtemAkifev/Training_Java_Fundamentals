@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.training.AppTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.training.AppTest" time="0.048" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire/surefirebooter11704304681996820756.jar /Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire 2020-10-14T20-46-05_471-jvmRun1 surefire8753655072426663469tmp surefire_0113428810265398946tmp"/>
+    <property name="sun.java.command" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire/surefirebooter1878591385990327644.jar /Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire 2020-11-04T21-25-23_766-jvmRun1 surefire8323507163412140508tmp surefire_0262024359832456794tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/test-classes:/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/classes:/Users/artemakifev/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/artemakifev/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire/surefirebooter11704304681996820756.jar"/>
+    <property name="surefire.real.class.path" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training/target/surefire/surefirebooter1878591385990327644.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -41,7 +41,7 @@
     <property name="localRepository" value="/Users/artemakifev/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/b1/0qswlvsn4pz7hccjzptyyr5w0000gn/T/"/>
-    <property name="idea.version" value="2020.2.2"/>
+    <property name="idea.version" value="2020.2.3"/>
     <property name="java.version" value="14.0.1"/>
     <property name="user.dir" value="/Users/artemakifev/IdeaProjects/Traning-epam/epam-training"/>
     <property name="os.arch" value="x86_64"/>
