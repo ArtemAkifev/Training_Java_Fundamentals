@@ -24,8 +24,7 @@ package com.epam.training.optionalTask;
  */
 
 public class OptionalTask1 {
-
     OneTask oneTask = new OneTask();
-
+    TwoTask twoTask = new TwoTask();
 
 }

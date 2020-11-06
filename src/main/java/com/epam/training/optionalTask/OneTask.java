@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class OneTask {
     private int numLength = createLengthNum();
+
     private int[] num = createNumArray();
     private String printAr = printArray();
 
@@ -23,7 +24,7 @@ public class OneTask {
 
 
     public int createLengthNum (){
-        System.out.println("OptionalTask1");
+        System.out.println("OptionalTask1\nTask1");
         System.out.println("Ввести n чисел с консоли.\n1.Найти самое короткое и самое длинное число." +
                 "Вывести найденные числа и их длину.");
         System.out.println("Введите (n) количество чисел : ");
