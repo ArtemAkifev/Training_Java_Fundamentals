@@ -3,97 +3,32 @@ package com.epam.training.optionalTask;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * 2.     Вывести числа в порядке возрастания (убывания) значений их длины.
  */
 public class TwoTask {
+    OneTask one = new OneTask();
+    private String[] convertNum = one.getNumSt();
 
-    int numLength = createLengthNum();
-    private int[] num = createNumArray();
-    String rseNum = printArray();
-
-    String [] convertNum = convertingArrToString(num);
-    String [] sortNumFromMore = sortFromMore(convertNum);
-
-
-    String [] sortNumFromLess = sortFromLess(convertNum);
-
-    public String printArray(){
-        String a = " ";
-        System.out.print("Все числа: ");
-        for(int i = 0; i < numLength; i++){
-            System.out.print(num[i] + a);
-        }
-        System.out.println();
-        return a;
+    public String[] getConvertNum() {
+        return convertNum;
     }
 
-    public int createLengthNum (){
-        System.out.println();
-        System.out.println("Task2");
-        System.out.println("2.Вывести числа в порядке возрастания (убывания)" +
-                " значений их длины.");
-        System.out.println("Введите (n) количество чисел : ");
-        boolean success = true;
-        while (success) {
-            Scanner scanner = new Scanner(System.in);
-            if (scanner.hasNextInt()) {
-                numLength = scanner.nextInt();
-                if (numLength > 0) {
-                    success = false;
-                } else {
-                    System.out.println("Отрицателное значение.\nПопробуйте снова: ");
-                    success = true;
-                }
-            } else {
-                System.out.println("Некоректный ввод.\nПопробуйте снова: ");
-            }
-        }
-        return numLength;
-    }
-
-    public int[] createNumArray (){
-        num = new int[numLength];
-        System.out.println("Введите числа");
-        boolean success = true;
-        while (success) {
-            for (int i = 0; i < num.length; i++) {
-                System.out.println("Ввод: ");
-                Scanner scanner = new Scanner(System.in);
-                if (scanner.hasNextInt()) {
-                    num[i] = scanner.nextInt();
-                } else {
-                    System.out.println("Это не число: ");
-                    --i;
-                }
-                success = false;
-            }
-        }
-        return num;
-    }
-
-
-    /**
-     * конвертируем int[] в String[]
-     */
-    public String[] convertingArrToString(int[] array){
-        String[] numArrayComp = new String[array.length];
-        for (int i = 0; i < array.length; i++) {
-            numArrayComp [i] = Integer.toString(array[i]);
-        }
-        return numArrayComp;
-    }
+    private String [] sortNumFromMore = sortFromMore(convertNum);
+    private String [] sortNumFromLess = sortFromLess(convertNum);
 
     /**
      *использую пузырьковую сортировку
      */
+
     public String[] sortFromMore (String [] num){
+        System.out.println("\nTask2\n2.Вывести числа в порядке возрастания (убывания) значений их длины.");
+
                                                       // отсортированный массив по длине числа (по разрядности),
         String [] bestNumSt = new String[num.length]; // от меньшего к большему
 
-        List<String> list = new ArrayList<>();        // хронит модуль отрицательного числа
+        List<String> list = new ArrayList<>();        // хранит модуль отрицательного числа
 
         for (int i = 0; i < num.length ; i++) {       // запись в лист
             bestNumSt[i] = num[i];

@@ -10,6 +10,7 @@ public class OneTask {
     private int numLength = createLengthNum();
 
     private int[] num = createNumArray();
+
     private String printAr = printArray();
 
     private int minValue = minValue(num);
@@ -18,13 +19,17 @@ public class OneTask {
     private String minValueLength = minValue + "";
     private String maxValueLength = minValue + "";
 
-
     private String[] numSt = convertingArrToString(num);
+
+    public String[] getNumSt() {
+        return numSt;
+    }
+
     private String mm = lengthMinMax(numSt);
 
 
     public int createLengthNum (){
-        System.out.println("OptionalTask1\nTask1");
+        System.out.println("OptionalTask1\n\nTask1");
         System.out.println("Ввести n чисел с консоли.\n1.Найти самое короткое и самое длинное число." +
                 "Вывести найденные числа и их длину.");
         System.out.println("Введите (n) количество чисел : ");
